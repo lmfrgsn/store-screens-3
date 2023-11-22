@@ -1,9 +1,9 @@
-export default function TwoColList({ gradients, showIcons, displayDates, image, title }) {
+export default function TwoColList({ tablet, gradients, showIcons, displayDates, image, title }) {
     return (
         <>
             {/* 2 Column List */}
             <div className="tile-image" style={{ position: 'relative' }}>
-                <img src={image ? image : 'plus.png'} style={{ width: "100%", objectFit: "cover", borderRadius: "16px" }} alt="" />
+                <img src={image ? image : 'plus.png'} style={{ width: "100%", objectFit: "cover", borderRadius: "16px", height: tablet ? "36rem" : "24rem" }} alt="" />
                 <div style={{ position: "absolute", bottom: "2rem", left: "2rem", right: "2rem", zIndex: 20 }}>
                     <p style={{ fontSize: "40px", margin: 0, zIndex: 20 }}>{title}</p>
                     <div style={{ display: "flex", justifyContent: "space-between" }}>

@@ -1,13 +1,13 @@
-export default function MediumList({ gradients, showIcons, displayDates, image, title }) {
+export default function MediumList({ tablet, gradients, showIcons, displayDates, image, title }) {
     return (
         <>
             <label className="mediumList" htmlFor="listImage1" style={{ width: "100%", boxSizing: "border-box", display: "flex", justifyContent: "space-between", boxShadow: "rgba(0, 0, 0, 0.05) 0px 4px 24px 1px", borderRadius: "1.5rem", backgroundColor: '#fff', margin: "1rem 0" }}>
                 <div className="tile-image" style={{ position: 'relative', display: "flex", alignItems: "center", width: "46%", marginRight: "4%" }}>
-                    <img src={image ? image : 'plus.png'} style={{ width: "100%", objectFit: "cover", borderRadius: "12px 0 0 12px" }} alt="" />
+                    <img src={image ? image : 'plus.png'} style={{ width: "100%", objectFit: "cover", borderRadius: "12px 0 0 12px", height: tablet ? "40rem" : "22rem" }} alt="" />
                     <div className='gradient' style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, background: "linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 37.13%)", zIndex: 2, opacity: gradients ? "90%" : "0", borderRadius: "12px 0 0 12px" }}>&nbsp;</div>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "46%", marginRight: "4%", padding: "1rem 0" }}>
-                    <p style={{ fontSize: "40px", margin: 0, zIndex: 20, color: '#343D4C', fontWeight: 500 }}>{title}</p>
+                    <p style={{ fontSize: tablet ? "54px" : "40px", margin: 0, zIndex: 20, color: '#343D4C', fontWeight: 500, marginTop: "1rem" }}>{title}</p>
                     <div style={{ display: "flex", justifyContent: "space-between", color: "#808080", paddingBottom: "1rem" }}>
                         <div style={{ display: showIcons ? "flex" : "none", alignItems: "center" }}>
                             <svg style={{ marginRight: "0.5rem", marginTop: "0.75rem" }} width="28" height="28" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">

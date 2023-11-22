@@ -3,7 +3,7 @@ export default function Polaroid({ gradients, showIcons, displayDates, image, ti
         <>
             <label className="polaroid" htmlFor="listImage1" style={{ width: "100%", boxSizing: "border-box", display: "flex", flexDirection:"column", justifyContent: "space-between", boxShadow: "rgba(0, 0, 0, 0.05) 0px 4px 24px 1px", borderRadius: "1.5rem", backgroundColor: '#fff', margin: "1rem 0" }}>
                 <div className="tile-image" style={{ position: 'relative', display: "flex", alignItems: "center", width: "100%" }}>
-                    <img src={image ? image : 'plus.png'} style={{ width: "100%", height: tablet ? "64rem" :"32rem", objectFit: "cover", borderRadius: "12px 12px 0 0" }} alt="" />
+                    <img src={image ? image : 'plus.png'} style={{ width: "100%", height: tablet ? "64rem" :"32rem", objectFit: "cover", borderRadius: "12px 12px 0 0", height: tablet ? "46rem" : "34rem" }} alt="" />
                     <div className='gradient' style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, background: "linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 37.13%)", zIndex: 2, opacity: gradients ? "90%" : "0", borderRadius: "12px 12px 0 0" }}>&nbsp;</div>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "100%", padding: "2rem", boxSizing: "border-box" }}>

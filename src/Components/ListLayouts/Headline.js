@@ -1,4 +1,4 @@
-export default function Headline({ gradients, showIcons, displayDates, image, title }) {
+export default function Headline({ tablet, gradients, showIcons, displayDates, image, title }) {
     return (
         <>
             <label className="headline" htmlFor="listImage1" style={{ width: "100%", boxSizing: "border-box", display: "flex", justifyContent: "space-between", boxShadow: "rgba(0, 0, 0, 0.05) 0px 4px 24px 1px", padding: "2rem", borderRadius: "1.5rem", backgroundColor: '#fff', margin: "1rem 0" }}>
@@ -17,7 +17,7 @@ export default function Headline({ gradients, showIcons, displayDates, image, ti
                     </div>
                 </div>
                 <div className="tile-image" style={{ position: 'relative', display: "flex", alignItems: "center", width: "32%", marginLeft: "4%" }}>
-                    <img src={image ? image : 'plus.png'} style={{ width: "100%", objectFit: "cover", borderRadius: "12px" }} alt="" />
+                    <img src={image ? image : 'plus.png'} style={{ width: "100%", objectFit: "cover", borderRadius: "12px", height: tablet ? "24rem" : "14rem" }} alt="" />
                     <div className='gradient' style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, background: "linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 37.13%)", zIndex: 2, opacity: gradients ? "90%" : "0", borderRadius: "12px" }}>&nbsp;</div>
                 </div>
             </label>

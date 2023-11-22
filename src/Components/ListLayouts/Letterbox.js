@@ -1,9 +1,9 @@
-export default function Letterbox({ gradients, showIcons, displayDates, image, title }) {
+export default function Letterbox({ tablet, gradients, showIcons, displayDates, image, title }) {
     return (
         <>
             <label className="letterbox" htmlFor="listImage1" style={{ width: "100%", boxSizing: "border-box", display: "flex", justifyContent: "space-between", marginBottom: "2rem" }}>
                 <div className="tile-image" style={{ position: 'relative', width: "100%" }}>
-                    <img src={image ? image : 'plus.png'} style={{ width: "100%", height: "28rem", objectFit: "cover", borderRadius: "16px" }} alt="" />
+                    <img src={image ? image : 'plus.png'} style={{ width: "100%", height: "28rem", objectFit: "cover", borderRadius: "16px", height: tablet ? "34rem" : "24rem" }} alt="" />
                     <div style={{ position: "absolute", bottom: "2rem", left: "2rem", right: "2rem", zIndex: 20 }}>
                         <p style={{ fontSize: "35px", fontWeight: "500", margin: 0, marginBottom: "1rem", zIndex: 20 }}>{title}</p>
                         <div style={{ display: "flex", justifyContent: "space-between" }}>

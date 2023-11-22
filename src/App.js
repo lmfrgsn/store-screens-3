@@ -385,7 +385,7 @@ notifications" imageName="iphone-6-7-display-2" background="top" marginOffset={"
                     <p style={{ color: "#6D7C99", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 10, width: "100%", display: "block" }}>12 Likes · 1 Comment</p>
                   </div>
                 </div>
-                <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderTop: "1px solid #D9D9D9", borderBottom: "1px solid #D9D9D9" }}>
+                <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderBottom: "1px solid #D9D9D9" }}>
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
                   <div>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
@@ -523,7 +523,7 @@ notifications" imageName="iphone-5-5-display-2" background="top" marginOffset={"
                     <p style={{ color: "#6D7C99", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 10, width: "100%", display: "block" }}>12 Likes · 1 Comment</p>
                   </div>
                 </div>
-                <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderTop: "1px solid #D9D9D9", borderBottom: "1px solid #D9D9D9" }}>
+                <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderBottom: "1px solid #D9D9D9" }}>
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
                   <div>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
@@ -661,7 +661,7 @@ notifications" imageName="ipad-12-9-display-2" background="top" marginOffset={"1
                     <p style={{ color: "#6D7C99", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 10, width: "100%", display: "block" }}>12 Likes · 1 Comment</p>
                   </div>
                 </div>
-                <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderTop: "1px solid #D9D9D9", borderBottom: "1px solid #D9D9D9" }}>
+                <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderBottom: "1px solid #D9D9D9" }}>
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
                   <div>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
@@ -801,7 +801,7 @@ notifications" imageName="android-phone-display-2" background="top" marginOffset
                     <p style={{ color: "#6D7C99", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 10, width: "100%", display: "block" }}>12 Likes · 1 Comment</p>
                   </div>
                 </div>
-                <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderTop: "1px solid #D9D9D9", borderBottom: "1px solid #D9D9D9" }}>
+                <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderBottom: "1px solid #D9D9D9" }}>
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
                   <div>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
@@ -927,7 +927,7 @@ notifications" imageName="android-tablet-display-2" background="top" marginOffse
                     <p style={{ color: "#6D7C99", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 10, width: "100%", display: "block" }}>12 Likes · 1 Comment</p>
                   </div>
                 </div>
-                <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderTop: "1px solid #D9D9D9", borderBottom: "1px solid #D9D9D9" }}>
+                <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderBottom: "1px solid #D9D9D9" }}>
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
                   <div>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>

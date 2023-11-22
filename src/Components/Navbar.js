@@ -9,7 +9,7 @@ export default function Navbar({ themeColour, lightMode, title, menuIcon, rightI
                     <svg style={{ margin: "0 62px 0 12px" }} xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-left"><path d="m15 18-6-6 6-6" /></svg>
                 }
             </div>
-            <p style={{ fontSize: 42, fontWeight: 600, textAlign: "center", height: 120, display: "flex", alignItems: "center", justifyContent: "center", margin: 0, padding: rightIcons ? "20px 0" : "20px 120px 20px 0" }}>{title}</p>
+            <p style={{ fontSize: 42, fontWeight: 600, textAlign: "center", height: 120, display: "flex", alignItems: "center", justifyContent: "center", margin: 0, padding: rightIcons ? "20px 0" : "20px 120px 20px 0", flexGrow: 1 }}>{title}</p>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                 {rightIcons ?
                     <>

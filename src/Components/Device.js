@@ -13,6 +13,7 @@ export default function Device({ themeColour, lightMode, deviceWidth, tablet, ch
             height: tablet ? 3500 : 2042,
             backgroundColor: backgroundColor ? backgroundColor : "white",
             borderRadius: "36px 36px 0 0",
+            border: "3px solid #D9D9D9",
             marginLeft: marginOffset,
             marginRight: marginOffset,
             display: "block",
