@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+.featured-image,
+.featured-tiles>label {
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AppControls {
+  min-width: 260px;
+  margin-right: 20px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.AppControls>div {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.AppControls>div input[type='text'],
+.AppControls>div select {
+  width: 100%;
+  background: white;
+  border: 1px solid #bdcad3;
+  padding: 6px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.AppControls>div input[type='color'] {
+  width: 100%;
+}
+
+.AppControls>div label {
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 75%;
+  margin-bottom: 4px;
+  flex-grow: 1;
+}
+
+.AppControls>div.inline {
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.AppControls .imagesSelect {
+  display: block;
+  width: 100%;
+  border: 1px solid #E6E7EB;
+  border-radius: 4px;
+  margin-top: 8px;
+  padding: 12px 0;
+  background: none;
+  color: #474747;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+  opacity: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.AppControls .imagesSelect:hover {
+  background-color: #F3F4F6;
+}
+
+.AppControls .imagesSelectInput {
+  display: none;
+}
+
+.download-btn {
+  display: block;
+  width: 100%;
+  border: 1px solid #E6E7EB;
+  border-radius: 4px;
+  margin-top: 8px;
+  padding: 12px 0;
+  background: none;
+  color: #474747;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.download-btn:hover {
+  background-color: #F3F4F6;
+}
+
+h3 span {
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+hr {
+  width: 100%;
+  background-color: #efefef;
+  border: none;
+  height: 1px;
 }
