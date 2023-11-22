@@ -11,8 +11,8 @@ import Tiles from "./Components/Tiles";
 
 function App() {
 
-  const elementRef = useRef(null);
-  const elementRef2 = useRef(null);
+  const ios1 = useRef(null);
+  const ios2 = useRef(null);
 
   const [file, setFile] = useState();
   const [listimage1, setListImage1] = useState();
@@ -47,7 +47,40 @@ function App() {
 
   const [deviceWidth, setDeviceWidth] = useState(946);
 
+  const handleAllImages = () => {
 
+    // html2Image.toPng(ios1);
+    // html2Image.toPng(ios2);
+
+
+    // let downloads = document.getElementsByClassName('download');
+    // console.log(downloads[0]);
+    // downloads[0].click();
+    // downloads[1].click();
+    // downloads[2].click();
+    // downloads[3].click();
+    // downloads[4].click();
+    // downloads[5].click();
+    // downloads[6].click();
+    // downloads[7].click();
+    // downloads[8].click();
+    // downloads[9].click();
+    // downloads[10].click();
+    // downloads[11].click();
+    // downloads[12].click();
+    // downloads[13].click();
+    // downloads[14].click();
+    // downloads[15].click();
+    // downloads[16].click();
+    // downloads[17].click();
+    // downloads[18].click();
+    // downloads[19].click();
+
+
+    // downloads.forEach(download => {
+    //   console.log(download)
+    // });
+  };
 
   function handleFeaturedImageChange(e) {
     setFile(URL.createObjectURL(e.target.files[0]));
@@ -310,14 +343,14 @@ function App() {
             <input type="file" id="listImage6" onChange={handleListImage6Change} />
           </div>
           <hr />
-          <button className="download-btn">Download All</button>
+          {/* <button onClick={handleAllImages} className="download-btn">Download All</button> */}
         </div>
         <div style={{ display: "flex", flexDirection: "column", flexGrow: 1, overflow: "scroll" }}>
 
           <h3 style={{ marginTop: 0 }}>iPhone 6.7" Display <span>1290x2796</span></h3>
 
           <div className="AppScreens" style={{ display: "flex", flexGrow: 1, overflow: "scroll" }}>
-            <Holder shotWidth={1290} shotHeight={2796} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} displayText={`Welcome to ${appName}`} imageName="iphone-6-7-display-1" backgroundColor={'#F4F4F4'} marginOffset={"172px"}>
+            <Holder shotWidth={1290} shotHeight={2796} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} displayText={`Welcome to ${appName}`} imageName="iphone-6-7-display-1" backgroundColor={'#F4F4F4'} marginOffset={"172px"} ref={ios1}>
               <Navbar title={homeTitle} themeColour={themeColour} lightMode={lightMode} rightIcons={true} menuIcon={true} extraTop={true} />
               <Body>
                 <label htmlFor="featuredImage">
@@ -346,7 +379,7 @@ function App() {
             </Holder>
 
             <Holder shotWidth={1290} shotHeight={2796} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} backgroundColor="#F5F5F5" displayText="Get instant updates and
-notifications" imageName="iphone-6-7-display-2" background="top" marginOffset={"172px"}>
+notifications" imageName="iphone-6-7-display-2" background="top" marginOffset={"172px"} ref={ios2}>
               <Navbar title="Notifications" themeColour={themeColour} lightMode={lightMode} extraTop={true} />
               <Body>
                 <div style={{ display: "flex", alignItems: "center", justifyContent: "flex-end", marginBottom: "1.75rem", color: lightMode ? "#000" : "#fff" }}>

@@ -51,7 +51,7 @@ export default function Holder({ shotWidth, shotHeight, themeColour, lightMode, 
                     </div>
                 </div>
             </div>
-            <button onClick={htmlToImageConvert} className="download-btn">Download Image</button>
+            <button onClick={htmlToImageConvert} className="download-btn download">Download Image</button>
         </div>
     );
 }
