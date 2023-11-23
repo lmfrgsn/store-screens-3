@@ -27,12 +27,12 @@ export default function Tiles({ listLayout, gradients, showIcons, displayDates, 
             return (
                 listContent = <>
                     <div className="featured-tiles" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
-                        <SmallList image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <SmallList image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <SmallList image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <SmallList image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <SmallList image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <SmallList image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                        <SmallList image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 hours" />
+                        <SmallList image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="7 hours" />
+                        <SmallList image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 day" />
+                        <SmallList image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 days" />
+                        <SmallList image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="4 days" />
+                        <SmallList image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 week" />
                     </div>
                 </>
             )
@@ -40,12 +40,12 @@ export default function Tiles({ listLayout, gradients, showIcons, displayDates, 
             return (
                 listContent = <>
                     <div className="featured-tiles" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
-                        <MediumList image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <MediumList image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <MediumList image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <MediumList image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <MediumList image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <MediumList image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                        <MediumList image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 hours" />
+                        <MediumList image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="7 hours" />
+                        <MediumList image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 day" />
+                        <MediumList image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 days" />
+                        <MediumList image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="4 days" />
+                        <MediumList image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 week" />
                     </div>
                 </>
             )
@@ -54,26 +54,26 @@ export default function Tiles({ listLayout, gradients, showIcons, displayDates, 
                 listContent = <>
                     <div className="featured-tiles" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
                         <label htmlFor="listImage1" style={{ maxWidth: "48%", minWidth: "48%", boxSizing: "border-box", marginRight: "4%" }}>
-                            <TwoColList image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <TwoColList image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 hours" />
                         </label>
                         <label htmlFor="listImage2" style={{ maxWidth: "48%", minWidth: "48%", boxSizing: "border-box" }}>
-                            <TwoColList image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <TwoColList image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="7 hours" />
                         </label>
                     </div>
                     <div className="featured-tiles" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
                         <label htmlFor="listImage3" style={{ maxWidth: "48%", minWidth: "48%", boxSizing: "border-box", marginRight: "4%" }}>
-                            <TwoColList image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <TwoColList image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 day" />
                         </label>
                         <label htmlFor="listImage4" style={{ maxWidth: "48%", minWidth: "48%", boxSizing: "border-box" }}>
-                            <TwoColList image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <TwoColList image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 days" />
                         </label>
                     </div>
                     <div className="featured-tiles" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
                         <label htmlFor="listImage5" style={{ maxWidth: "48%", minWidth: "48%", boxSizing: "border-box", marginRight: "4%" }}>
-                            <TwoColList image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <TwoColList image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="4 days" />
                         </label>
                         <label htmlFor="listImage6" style={{ maxWidth: "48%", minWidth: "48%", boxSizing: "border-box" }}>
-                            <TwoColList image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <TwoColList image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 week" />
                         </label>
                     </div>
                 </>
@@ -82,12 +82,12 @@ export default function Tiles({ listLayout, gradients, showIcons, displayDates, 
             return (
                 listContent = <>
                     <div className="featured-tiles" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
-                        <Polaroid image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Polaroid image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Polaroid image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Polaroid image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Polaroid image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Polaroid image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                        <Polaroid image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 hours" />
+                        <Polaroid image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="7 hours" />
+                        <Polaroid image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 day" />
+                        <Polaroid image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 days" />
+                        <Polaroid image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="4 days" />
+                        <Polaroid image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 week" />
                     </div>
                 </>
             )
@@ -96,26 +96,26 @@ export default function Tiles({ listLayout, gradients, showIcons, displayDates, 
                 listContent = <>
                     <div className="featured-tiles" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
                         <label htmlFor="listImage1" style={{ maxWidth: "48%", minWidth: "48%", boxSizing: "border-box", marginRight: "4%" }}>
-                            <MiniPolaroid image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <MiniPolaroid image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 hours" />
                         </label>
                         <label htmlFor="listImage2" style={{ maxWidth: "48%", minWidth: "48%", boxSizing: "border-box" }}>
-                            <MiniPolaroid image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <MiniPolaroid image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="7 hours" />
                         </label>
                     </div>
                     <div className="featured-tiles" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
                         <label htmlFor="listImage3" style={{ maxWidth: "48%", minWidth: "48%", boxSizing: "border-box", marginRight: "4%" }}>
-                            <MiniPolaroid image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <MiniPolaroid image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 day" />
                         </label>
                         <label htmlFor="listImage4" style={{ maxWidth: "48%", minWidth: "48%", boxSizing: "border-box" }}>
-                            <MiniPolaroid image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <MiniPolaroid image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 days" />
                         </label>
                     </div>
                     <div className="featured-tiles" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
                         <label htmlFor="listImage5" style={{ maxWidth: "48%", minWidth: "48%", boxSizing: "border-box", marginRight: "4%" }}>
-                            <MiniPolaroid image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <MiniPolaroid image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="4 days" />
                         </label>
                         <label htmlFor="listImage6" style={{ maxWidth: "48%", minWidth: "48%", boxSizing: "border-box" }}>
-                            <MiniPolaroid image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <MiniPolaroid image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 week" />
                         </label>
                     </div>
                 </>
@@ -125,24 +125,24 @@ export default function Tiles({ listLayout, gradients, showIcons, displayDates, 
                 listContent = <>
                     <div className="featured-tiles" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
                         <label htmlFor="listImage1" style={{ maxWidth: "31%", minWidth: "31%", boxSizing: "border-box" }}>
-                            <Gallery image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <Gallery image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 hours" />
                         </label>
                         <label htmlFor="listImage2" style={{ maxWidth: "31%", minWidth: "31%", boxSizing: "border-box", marginRight: "3%", marginLeft: "3%" }}>
-                            <Gallery image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <Gallery image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="7 hours" />
                         </label>
                         <label htmlFor="listImage3" style={{ maxWidth: "31%", minWidth: "31%", boxSizing: "border-box" }}>
-                            <Gallery image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <Gallery image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 day" />
                         </label>
                     </div>
                     <div className="featured-tiles" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
                         <label htmlFor="listImage4" style={{ maxWidth: "31%", minWidth: "31%", boxSizing: "border-box" }}>
-                            <Gallery image={listimage4} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <Gallery image={listimage4} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 days" />
                         </label>
                         <label htmlFor="listImage5" style={{ maxWidth: "31%", minWidth: "31%", boxSizing: "border-box", marginRight: "3%", marginLeft: "3%" }}>
-                            <Gallery image={listimage5} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <Gallery image={listimage5} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="4 days" />
                         </label>
                         <label htmlFor="listImage6" style={{ maxWidth: "31%", minWidth: "31%", boxSizing: "border-box" }}>
-                            <Gallery image={listimage6} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                            <Gallery image={listimage6} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 week" />
                         </label>
                     </div>
                 </>
@@ -151,12 +151,12 @@ export default function Tiles({ listLayout, gradients, showIcons, displayDates, 
             return (
                 listContent = <>
                     <div className="featured-tiles" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
-                        <Letterbox image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Letterbox image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Letterbox image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Letterbox image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Letterbox image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Letterbox image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                        <Letterbox image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 hours" />
+                        <Letterbox image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="7 hours" />
+                        <Letterbox image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 day" />
+                        <Letterbox image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 days" />
+                        <Letterbox image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="4 days" />
+                        <Letterbox image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 week" />
                     </div>
                 </>
             )
@@ -164,12 +164,12 @@ export default function Tiles({ listLayout, gradients, showIcons, displayDates, 
             return (
                 listContent = <>
                     <div className="featured-tiles" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
-                        <Headline image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Headline image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Headline image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Headline image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Headline image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <Headline image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                        <Headline image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 hours" />
+                        <Headline image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="7 hours" />
+                        <Headline image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 day" />
+                        <Headline image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 days" />
+                        <Headline image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="4 days" />
+                        <Headline image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 week" />
                     </div>
                 </>
             )
@@ -177,12 +177,12 @@ export default function Tiles({ listLayout, gradients, showIcons, displayDates, 
             return (
                 listContent = <>
                     <div className="featured-tiles" style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-between", boxSizing: "border-box", marginTop: "28px" }}>
-                        <FeedMag image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <FeedMag image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <FeedMag image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <FeedMag image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <FeedMag image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
-                        <FeedMag image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} />
+                        <FeedMag image={listimage1} title={featuredTile1Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 hours" />
+                        <FeedMag image={listimage2} title={featuredTile2Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="7 hours" />
+                        <FeedMag image={listimage3} title={featuredTile3Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 day" />
+                        <FeedMag image={listimage4} title={featuredTile4Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="2 days" />
+                        <FeedMag image={listimage5} title={featuredTile5Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="4 days" />
+                        <FeedMag image={listimage6} title={featuredTile6Title} gradients={gradients} showIcons={showIcons} displayDates={displayDates} tablet={tablet} date="1 week" />
                     </div>
                 </>
             )

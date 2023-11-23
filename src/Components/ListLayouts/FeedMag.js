@@ -1,4 +1,4 @@
-export default function FeedMag({ tablet, gradients, showIcons, displayDates, image, title }) {
+export default function FeedMag({ tablet, gradients, showIcons, displayDates, image, title, date }) {
     return (
         <>
             <label className="feed-mag" htmlFor="listImage1" style={{ width: "100%", boxSizing: "border-box", display: "flex", boxShadow: "rgba(0, 0, 0, 0.05) 0px 4px 24px 1px", padding: "2rem", borderRadius: "1.5rem", backgroundColor: '#fff', margin: "1rem 0" }}>
@@ -24,7 +24,7 @@ export default function FeedMag({ tablet, gradients, showIcons, displayDates, im
                     <p style={{ fontSize: "40px", margin: 0, zIndex: 20, color: '#343D4C', fontWeight: 500 }}>{title}</p>
                     <div style={{ display: "flex", justifyContent: "space-between", color: "#808080" }}>
                         <div style={{ display: displayDates ? "flex" : "none", zIndex: 20, minWidth: "30%", textAlign: showIcons ? "right" : "left" }}>
-                            <p style={{ fontWeight: "500", fontSize: "26px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>21 Nov</p>
+                            <p style={{ fontWeight: "500", fontSize: "26px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>{date}</p>
                         </div>
                     </div>
                 </div>

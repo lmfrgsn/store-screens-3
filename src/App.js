@@ -366,7 +366,7 @@ function App() {
                           <p style={{ fontSize: "28px", fontWeight: "500", margin: 0, zIndex: 20, display: "block", width: "100%", marginTop: "0.75rem" }}>View List</p>
                         </div>
                         <div style={{ display: displayDates ? "flex" : "none", zIndex: 20, minWidth: "30%", textAlign: showIcons ? "right" : "left" }}>
-                          <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>21 Nov</p>
+                          <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>1 hour</p>
                         </div>
                       </div>
                     </div>
@@ -507,7 +507,7 @@ the information you need" imageName="iphone-6-7-display-4" background="top" marg
                           <p style={{ fontSize: "28px", fontWeight: "500", margin: 0, zIndex: 20, display: "block", width: "100%", marginTop: "0.75rem" }}>View List</p>
                         </div>
                         <div style={{ display: displayDates ? "flex" : "none", zIndex: 20, minWidth: "30%", textAlign: showIcons ? "right" : "left" }}>
-                          <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>21 Nov</p>
+                          <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>1 hour</p>
                         </div>
                       </div>
                     </div>
@@ -645,7 +645,7 @@ the information you need" imageName="iphone-5-5-display-4" background="top" marg
                           <p style={{ fontSize: "28px", fontWeight: "500", margin: 0, zIndex: 20, display: "block", width: "100%", marginTop: "0.75rem" }}>View List</p>
                         </div>
                         <div style={{ display: displayDates ? "flex" : "none", zIndex: 20, minWidth: "30%", textAlign: showIcons ? "right" : "left" }}>
-                          <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>21 Nov</p>
+                          <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>1 hour</p>
                         </div>
                       </div>
                     </div>
@@ -785,7 +785,7 @@ the information you need" imageName="ipad-12-9-display-4" background="top" margi
                           <p style={{ fontSize: "28px", fontWeight: "500", margin: 0, zIndex: 20, display: "block", width: "100%", marginTop: "0.75rem" }}>View List</p>
                         </div>
                         <div style={{ display: displayDates ? "flex" : "none", zIndex: 20, minWidth: "30%", textAlign: showIcons ? "right" : "left" }}>
-                          <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>21 Nov</p>
+                          <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>1 hour</p>
                         </div>
                       </div>
                     </div>
@@ -910,7 +910,7 @@ the information you need" imageName="android-phone-display-4" background="top" m
                           <p style={{ fontSize: "28px", fontWeight: "500", margin: 0, zIndex: 20, display: "block", width: "100%", marginTop: "0.75rem" }}>View List</p>
                         </div>
                         <div style={{ display: displayDates ? "flex" : "none", zIndex: 20, minWidth: "30%", textAlign: showIcons ? "right" : "left" }}>
-                          <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>21 Nov</p>
+                          <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>1 hour</p>
                         </div>
                       </div>
                     </div>

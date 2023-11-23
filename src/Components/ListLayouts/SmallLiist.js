@@ -1,4 +1,4 @@
-export default function SmallList({ tablet, gradients, showIcons, displayDates, image, title }) {
+export default function SmallList({ date, tablet, gradients, showIcons, displayDates, image, title }) {
     return (
         <>
             <label className="smallList" htmlFor="listImage1" style={{ width: "100%", boxSizing: "border-box", display: "flex", justifyContent: "space-between", boxShadow: "rgba(0, 0, 0, 0.05) 0px 4px 24px 1px", borderRadius: "1.5rem", backgroundColor: '#fff', margin: "1rem 0" }}>
@@ -6,7 +6,7 @@ export default function SmallList({ tablet, gradients, showIcons, displayDates, 
                     <img src={image ? image : 'plus.png'} style={{ width: "100%", objectFit: "cover", borderRadius: "12px 0 0 12px", height: tablet ? "24rem" : "14rem" }} alt="" />
                     <div className='gradient' style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, background: "linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 37.13%)", zIndex: 2, opacity: gradients ? "90%" : "0", borderRadius: "12px 0 0 12px" }}>&nbsp;</div>
                 </div>
-                <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "64%", marginRight: "4%", padding: "1rem 0"}}>
+                <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "64%", marginRight: "4%", padding: "1rem 0" }}>
                     <p style={{ fontSize: "40px", margin: 0, zIndex: 20, color: '#343D4C', fontWeight: 500 }}>{title}</p>
                     <div style={{ display: "flex", justifyContent: "space-between", color: "#808080" }}>
                         <div style={{ display: showIcons ? "flex" : "none", alignItems: "center" }}>
@@ -16,7 +16,7 @@ export default function SmallList({ tablet, gradients, showIcons, displayDates, 
                             <p style={{ fontSize: "28px", fontWeight: "500", margin: 0, zIndex: 20, display: "block", width: "100%", marginTop: "0.75rem" }}>View List</p>
                         </div>
                         <div style={{ display: displayDates ? "flex" : "none", zIndex: 20, minWidth: "30%", textAlign: showIcons ? "right" : "left" }}>
-                            <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>21 Nov</p>
+                            <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>{date}</p>
                         </div>
                     </div>
                 </div>

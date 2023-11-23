@@ -1,4 +1,4 @@
-export default function Headline({ tablet, gradients, showIcons, displayDates, image, title }) {
+export default function Headline({ date, tablet, gradients, showIcons, displayDates, image, title }) {
     return (
         <>
             <label className="headline" htmlFor="listImage1" style={{ width: "100%", boxSizing: "border-box", display: "flex", justifyContent: "space-between", boxShadow: "rgba(0, 0, 0, 0.05) 0px 4px 24px 1px", padding: "2rem", borderRadius: "1.5rem", backgroundColor: '#fff', margin: "1rem 0" }}>
@@ -12,7 +12,7 @@ export default function Headline({ tablet, gradients, showIcons, displayDates, i
                             <p style={{ fontSize: "28px", fontWeight: "500", margin: 0, zIndex: 20, display: "block", width: "100%", marginTop: "0.75rem" }}>View List</p>
                         </div>
                         <div style={{ display: displayDates ? "flex" : "none", zIndex: 20, minWidth: "30%", textAlign: showIcons ? "right" : "left" }}>
-                            <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>21 Nov</p>
+                            <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>{date}</p>
                         </div>
                     </div>
                 </div>

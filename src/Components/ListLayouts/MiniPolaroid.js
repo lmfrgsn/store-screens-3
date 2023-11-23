@@ -1,9 +1,9 @@
-export default function MiniPolaroid({ gradients, showIcons, displayDates, image, title, tablet }) {
+export default function MiniPolaroid({ date, gradients, showIcons, displayDates, image, title, tablet }) {
     return (
         <>
-            <label className="miniPolaroid" htmlFor="listImage1" style={{ width: "100%", boxSizing: "border-box", display: "flex", flexDirection:"column", justifyContent: "space-between", boxShadow: "rgba(0, 0, 0, 0.05) 0px 4px 24px 1px", borderRadius: "1.5rem", backgroundColor: '#fff', margin: "1rem 0" }}>
+            <label className="miniPolaroid" htmlFor="listImage1" style={{ width: "100%", boxSizing: "border-box", display: "flex", flexDirection: "column", justifyContent: "space-between", boxShadow: "rgba(0, 0, 0, 0.05) 0px 4px 24px 1px", borderRadius: "1.5rem", backgroundColor: '#fff', margin: "1rem 0" }}>
                 <div className="tile-image" style={{ position: 'relative', display: "flex", alignItems: "center", width: "100%" }}>
-                    <img src={image ? image : 'plus.png'} style={{ width: "100%", height: tablet ? "36rem" :"20rem", objectFit: "cover", borderRadius: "12px 12px 0 0", height: tablet ? "32rem" : "18rem" }} alt="" />
+                    <img src={image ? image : 'plus.png'} style={{ width: "100%", height: tablet ? "36rem" : "20rem", objectFit: "cover", borderRadius: "12px 12px 0 0", height: tablet ? "32rem" : "18rem" }} alt="" />
                     <div className='gradient' style={{ position: "absolute", top: 0, left: 0, right: 0, bottom: 0, background: "linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 37.13%)", zIndex: 2, opacity: gradients ? "90%" : "0", borderRadius: "12px 12px 0 0" }}>&nbsp;</div>
                 </div>
                 <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "100%", padding: "2rem", boxSizing: "border-box" }}>
@@ -16,7 +16,7 @@ export default function MiniPolaroid({ gradients, showIcons, displayDates, image
                             <p style={{ fontSize: "28px", fontWeight: "500", margin: 0, zIndex: 20, display: "block", width: "100%", marginTop: "1rem" }}>View List</p>
                         </div>
                         <div style={{ display: displayDates ? "flex" : "none", zIndex: 20, minWidth: "30%", textAlign: showIcons ? "right" : "left" }}>
-                            <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "1rem" }}>21 Nov</p>
+                            <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "1rem" }}>{date}</p>
                         </div>
                     </div>
                 </div>

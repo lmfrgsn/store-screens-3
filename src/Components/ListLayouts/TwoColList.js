@@ -1,4 +1,4 @@
-export default function TwoColList({ tablet, gradients, showIcons, displayDates, image, title }) {
+export default function TwoColList({ date, tablet, gradients, showIcons, displayDates, image, title }) {
     return (
         <>
             {/* 2 Column List */}
@@ -14,7 +14,7 @@ export default function TwoColList({ tablet, gradients, showIcons, displayDates,
                             <p style={{ fontSize: "28px", fontWeight: "500", margin: 0, zIndex: 20, display: "block", width: "100%", marginTop: "0.75rem" }}>View List</p>
                         </div>
                         <div style={{ display: displayDates ? "flex" : "none", zIndex: 20, minWidth: "30%", textAlign: showIcons ? "right" : "left" }}>
-                            <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>21 Nov</p>
+                            <p style={{ fontWeight: "500", fontSize: "28px", margin: 0, display: "block", width: "100%", marginTop: "0.75rem" }}>{date}</p>
                         </div>
                     </div>
                 </div>
