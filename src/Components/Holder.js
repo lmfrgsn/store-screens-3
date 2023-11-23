@@ -8,7 +8,7 @@ export default function Holder({ shotWidth, shotHeight, themeColour, lightMode, 
     const elementRef = useRef(null);
 
     const htmlToImageConvert = () => {
-        toPng(elementRef.current, { cacheBust: false })
+        toPng(elementRef.current, { cacheBust: false, pixelRatio: 1 })
             .then((dataUrl) => {
                 const link = document.createElement("a");
                 link.download = appName.replace(' ', '-').toLowerCase() + '--' + imageName + '.png';

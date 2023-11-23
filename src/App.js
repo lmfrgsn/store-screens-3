@@ -487,11 +487,11 @@ the information you need" imageName="iphone-6-7-display-4" background="top" marg
 
           <hr style={{ marginTop: "2rem" }} />
 
-          <h3>iPhone 5.5" Display <span>1170x2532</span></h3>
-
+          <h3>iPhone 5.5" Display <span>1242 x 2208</span></h3>
+          {/* 1170x2532 */}
           <div className="AppScreens" style={{ display: "flex", flexGrow: 1, overflow: "scroll" }}>
 
-            <Holder shotWidth={1170} shotHeight={2532} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} displayText={`Welcome to ${appName}`} imageName="iphone-5-5-display-1" backgroundColor={'#F4F4F4'} marginOffset={"112px"}>
+            <Holder shotWidth={1242} shotHeight={2208} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} displayText={`Welcome to ${appName}`} imageName="iphone-5-5-display-1" backgroundColor={'#F4F4F4'} marginOffset={"112px"}>
               <Navbar title={homeTitle} themeColour={themeColour} lightMode={lightMode} rightIcons={true} menuIcon={true} />
               <Body>
                 <label htmlFor="featuredImage">
@@ -518,7 +518,7 @@ the information you need" imageName="iphone-6-7-display-4" background="top" marg
               </Body>
             </Holder>
 
-            <Holder shotWidth={1170} shotHeight={2532} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} backgroundColor="#F5F5F5" displayText="Get instant updates and
+            <Holder shotWidth={1242} shotHeight={2208} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} backgroundColor="#F5F5F5" displayText="Get instant updates and
 notifications" imageName="iphone-5-5-display-2" background="top" marginOffset={"112px"}>
               <Navbar title="Notifications" themeColour={themeColour} lightMode={lightMode} />
               <Body>
@@ -537,7 +537,7 @@ notifications" imageName="iphone-5-5-display-2" background="top" marginOffset={"
             </Holder>
 
 
-            <Holder shotWidth={1170} shotHeight={2532} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} displayText="Be part of the conversation" imageName="iphone-5-5-display-3" marginOffset={"112px"}>
+            <Holder shotWidth={1242} shotHeight={2208} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} displayText="Be part of the conversation" imageName="iphone-5-5-display-3" marginOffset={"112px"}>
               <Navbar title="Updates from the Team" themeColour={themeColour} lightMode={lightMode} style='fullback' compact={true} />
               <Body compact={true} noPadding={true}>
                 <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "20px 40px 0 40px" }} contentEditable="true" spellCheck="false">Congratulations to each and every one of you on a fantastic quarter. I am immensely proud to lead such a talented and dedicated team.</p>
@@ -589,7 +589,7 @@ notifications" imageName="iphone-5-5-display-2" background="top" marginOffset={"
               </Body>
             </Holder>
 
-            <Holder shotWidth={1170} shotHeight={2532} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} displayText="Search for and find
+            <Holder shotWidth={1242} shotHeight={2208} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} displayText="Search for and find
 the information you need" imageName="iphone-5-5-display-4" background="top" marginOffset={"112px"}>
               {!android ?
                 <><Navbar title="Search" themeColour={themeColour} lightMode={lightMode} style='fullback' compact={true} />
