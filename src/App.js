@@ -402,10 +402,10 @@ notifications" imageName="iphone-6-7-display-2" background="top" marginOffset={"
             <Holder shotWidth={1290} shotHeight={2796} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} displayText="Be part of the conversation" imageName="iphone-6-7-display-3" marginOffset={"172px"}>
               <Navbar title="Updates from the Team" themeColour={themeColour} lightMode={lightMode} style='fullback' compact={true} extraTop={true} />
               <Body compact={true} noPadding={true}>
-                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "20px 40px 0 40px" }} contentEditable="true" spellCheck="false">Congratulations to each and every one of you on a fantastic quarter. I am immensely proud to lead such a talented and dedicated team.</p>
-                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "40px 40px 40px 40px" }} contentEditable="true" spellCheck="false">Here's to our continued success!</p>
+                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "20px 40px 0 40px" }}>Congratulations to each and every one of you on a fantastic quarter. I am immensely proud to lead such a talented and dedicated team.</p>
+                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "40px 40px 40px 40px" }}>Here's to our continued success!</p>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 30, backgroundColor: "#fff", padding: "40px", borderTop: "1px solid #D9D9D9", borderBottom: "1px solid #D9D9D9" }}>
-                  <div>
+                  <div style={{ width: "280px" }}>
                     <svg width="58" height="58" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: "1rem" }}>
                       <path fillRule="evenodd" clipRule="evenodd" d="M16.9466 8.60017C19.4906 7.54379 22.2182 7 24.9729 7C27.7276 7 30.4552 7.54379 32.9993 8.60017C35.5434 9.65656 37.8539 11.2048 39.7984 13.156L39.8092 13.1669L40 13.3603L40.1908 13.167L40.2017 13.156C42.1462 11.2048 44.4567 9.65656 47.0008 8.60017C49.5448 7.54379 52.2724 7 55.0271 7C57.7818 7 60.5094 7.54379 63.0535 8.60017C65.5967 9.6562 67.9065 11.2037 69.8505 13.154C78.1736 21.4793 78.3586 35.2446 68.4964 45.2917L68.4751 45.3133L42.3125 71.4759C41.6992 72.0892 40.8674 72.4338 40 72.4338C39.1327 72.4338 38.3009 72.0892 37.6876 71.4759L11.5036 45.2918C1.6413 35.2447 1.82647 21.4793 10.1495 13.154C12.0936 11.2037 14.4034 9.6562 16.9466 8.60017Z" fill="#D22B35" />
                     </svg>
@@ -422,11 +422,11 @@ notifications" imageName="iphone-6-7-display-2" background="top" marginOffset={"
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
                   <div>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
-                      <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }} contentEditable="true" spellCheck="false">Joseph Smith</p>
-                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }} contentEditable="true" spellCheck="false">5 mins</p>
+                      <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }}>Joseph Smith</p>
+                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }}>5 mins</p>
                     </div>
-                    <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }} contentEditable="true" spellCheck="false">Client Executive</p>
-                    <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }} contentEditable="true" spellCheck="false">Great stuff everybody!</p>
+                    <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }}>Client Executive</p>
+                    <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }}>Great stuff everybody!</p>
                     <div style={{ display: "flex" }}>
                       <div style={{ display: "flex", alignItems: "center", paddingLeft: 20, marginTop: 30 }}>
                         <svg width="30" height="30" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -540,10 +540,10 @@ notifications" imageName="iphone-5-5-display-2" background="top" marginOffset={"
             <Holder shotWidth={1242} shotHeight={2208} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={946} tablet={false} displayText="Be part of the conversation" imageName="iphone-5-5-display-3" marginOffset={"148px"}>
               <Navbar title="Updates from the Team" themeColour={themeColour} lightMode={lightMode} style='fullback' compact={true} />
               <Body compact={true} noPadding={true}>
-                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "20px 40px 0 40px" }} contentEditable="true" spellCheck="false">Congratulations to each and every one of you on a fantastic quarter. I am immensely proud to lead such a talented and dedicated team.</p>
-                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "40px 40px 40px 40px" }} contentEditable="true" spellCheck="false">Here's to our continued success!</p>
+                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "20px 40px 0 40px" }}>Congratulations to each and every one of you on a fantastic quarter. I am immensely proud to lead such a talented and dedicated team.</p>
+                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "40px 40px 40px 40px" }}>Here's to our continued success!</p>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 30, backgroundColor: "#fff", padding: "40px", borderTop: "1px solid #D9D9D9", borderBottom: "1px solid #D9D9D9" }}>
-                  <div>
+                  <div style={{ width: "280px" }}>
                     <svg width="58" height="58" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: "1rem" }}>
                       <path fillRule="evenodd" clipRule="evenodd" d="M16.9466 8.60017C19.4906 7.54379 22.2182 7 24.9729 7C27.7276 7 30.4552 7.54379 32.9993 8.60017C35.5434 9.65656 37.8539 11.2048 39.7984 13.156L39.8092 13.1669L40 13.3603L40.1908 13.167L40.2017 13.156C42.1462 11.2048 44.4567 9.65656 47.0008 8.60017C49.5448 7.54379 52.2724 7 55.0271 7C57.7818 7 60.5094 7.54379 63.0535 8.60017C65.5967 9.6562 67.9065 11.2037 69.8505 13.154C78.1736 21.4793 78.3586 35.2446 68.4964 45.2917L68.4751 45.3133L42.3125 71.4759C41.6992 72.0892 40.8674 72.4338 40 72.4338C39.1327 72.4338 38.3009 72.0892 37.6876 71.4759L11.5036 45.2918C1.6413 35.2447 1.82647 21.4793 10.1495 13.154C12.0936 11.2037 14.4034 9.6562 16.9466 8.60017Z" fill="#D22B35" />
                     </svg>
@@ -560,11 +560,11 @@ notifications" imageName="iphone-5-5-display-2" background="top" marginOffset={"
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
                   <div>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
-                      <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }} contentEditable="true" spellCheck="false">Joseph Smith</p>
-                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }} contentEditable="true" spellCheck="false">5 mins</p>
+                      <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0, display: "block" }}>Joseph Smith</p>
+                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }}>5 mins</p>
                     </div>
-                    <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }} contentEditable="true" spellCheck="false">Client Executive</p>
-                    <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }} contentEditable="true" spellCheck="false">Great stuff everybody!</p>
+                    <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }}>Client Executive</p>
+                    <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }}>Great stuff everybody!</p>
                     <div style={{ display: "flex" }}>
                       <div style={{ display: "flex", alignItems: "center", paddingLeft: 20, marginTop: 30 }}>
                         <svg width="30" height="30" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -678,10 +678,10 @@ notifications" imageName="ipad-12-9-display-2" background="top" marginOffset={"1
             <Holder shotWidth={2048} shotHeight={2732} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={1846} tablet={true} displayText="Be part of the conversation" imageName="ipad-12-9-display-3" marginOffset={"101px"}>
               <Navbar title="Updates from the Team" themeColour={themeColour} lightMode={lightMode} style='fullback' compact={true} />
               <Body compact={true} noPadding={true}>
-                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "20px 40px 0 40px" }} contentEditable="true" spellCheck="false">Congratulations to each and every one of you on a fantastic quarter. I am immensely proud to lead such a talented and dedicated team.</p>
-                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "40px 40px 40px 40px" }} contentEditable="true" spellCheck="false">Here's to our continued success!</p>
+                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "20px 40px 0 40px" }}>Congratulations to each and every one of you on a fantastic quarter. I am immensely proud to lead such a talented and dedicated team.</p>
+                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "40px 40px 40px 40px" }}>Here's to our continued success!</p>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 30, backgroundColor: "#fff", padding: "40px", borderTop: "1px solid #D9D9D9", borderBottom: "1px solid #D9D9D9" }}>
-                  <div>
+                  <div style={{ width: "280px" }}>
                     <svg width="58" height="58" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: "1rem" }}>
                       <path fillRule="evenodd" clipRule="evenodd" d="M16.9466 8.60017C19.4906 7.54379 22.2182 7 24.9729 7C27.7276 7 30.4552 7.54379 32.9993 8.60017C35.5434 9.65656 37.8539 11.2048 39.7984 13.156L39.8092 13.1669L40 13.3603L40.1908 13.167L40.2017 13.156C42.1462 11.2048 44.4567 9.65656 47.0008 8.60017C49.5448 7.54379 52.2724 7 55.0271 7C57.7818 7 60.5094 7.54379 63.0535 8.60017C65.5967 9.6562 67.9065 11.2037 69.8505 13.154C78.1736 21.4793 78.3586 35.2446 68.4964 45.2917L68.4751 45.3133L42.3125 71.4759C41.6992 72.0892 40.8674 72.4338 40 72.4338C39.1327 72.4338 38.3009 72.0892 37.6876 71.4759L11.5036 45.2918C1.6413 35.2447 1.82647 21.4793 10.1495 13.154C12.0936 11.2037 14.4034 9.6562 16.9466 8.60017Z" fill="#D22B35" />
                     </svg>
@@ -698,11 +698,11 @@ notifications" imageName="ipad-12-9-display-2" background="top" marginOffset={"1
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
                   <div>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
-                      <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }} contentEditable="true" spellCheck="false">Joseph Smith</p>
-                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }} contentEditable="true" spellCheck="false">5 mins</p>
+                      <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }}>Joseph Smith</p>
+                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }}>5 mins</p>
                     </div>
-                    <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }} contentEditable="true" spellCheck="false">Client Executive</p>
-                    <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }} contentEditable="true" spellCheck="false">Great stuff everybody!</p>
+                    <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }}>Client Executive</p>
+                    <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }}>Great stuff everybody!</p>
                     <div style={{ display: "flex" }}>
                       <div style={{ display: "flex", alignItems: "center", paddingLeft: 20, marginTop: 30 }}>
                         <svg width="30" height="30" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -818,10 +818,10 @@ notifications" imageName="android-phone-display-2" background="top" marginOffset
             <Holder shotWidth={1350} shotHeight={2400} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={880} tablet={false} displayText="Be part of the conversation" imageName="android-phone-display-3" marginOffset={"235px"}>
               <Navbar title="Updates from the Team" themeColour={themeColour} lightMode={lightMode} style='fullback' compact={true} />
               <Body compact={true} noPadding={true}>
-                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "20px 40px 0 40px" }} contentEditable="true" spellCheck="false">Congratulations to each and every one of you on a fantastic quarter. I am immensely proud to lead such a talented and dedicated team.</p>
-                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "40px 40px 40px 40px" }} contentEditable="true" spellCheck="false">Here's to our continued success!</p>
+                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "20px 40px 0 40px" }}>Congratulations to each and every one of you on a fantastic quarter. I am immensely proud to lead such a talented and dedicated team.</p>
+                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "40px 40px 40px 40px" }}>Here's to our continued success!</p>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 30, backgroundColor: "#fff", padding: "40px", borderTop: "1px solid #D9D9D9", borderBottom: "1px solid #D9D9D9" }}>
-                  <div>
+                  <div style={{ width: "280px" }}>
                     <svg width="58" height="58" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: "1rem" }}>
                       <path fillRule="evenodd" clipRule="evenodd" d="M16.9466 8.60017C19.4906 7.54379 22.2182 7 24.9729 7C27.7276 7 30.4552 7.54379 32.9993 8.60017C35.5434 9.65656 37.8539 11.2048 39.7984 13.156L39.8092 13.1669L40 13.3603L40.1908 13.167L40.2017 13.156C42.1462 11.2048 44.4567 9.65656 47.0008 8.60017C49.5448 7.54379 52.2724 7 55.0271 7C57.7818 7 60.5094 7.54379 63.0535 8.60017C65.5967 9.6562 67.9065 11.2037 69.8505 13.154C78.1736 21.4793 78.3586 35.2446 68.4964 45.2917L68.4751 45.3133L42.3125 71.4759C41.6992 72.0892 40.8674 72.4338 40 72.4338C39.1327 72.4338 38.3009 72.0892 37.6876 71.4759L11.5036 45.2918C1.6413 35.2447 1.82647 21.4793 10.1495 13.154C12.0936 11.2037 14.4034 9.6562 16.9466 8.60017Z" fill="#D22B35" />
                     </svg>
@@ -838,11 +838,11 @@ notifications" imageName="android-phone-display-2" background="top" marginOffset
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
                   <div>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
-                      <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }} contentEditable="true" spellCheck="false">Joseph Smith</p>
-                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }} contentEditable="true" spellCheck="false">5 mins</p>
+                      <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }}>Joseph Smith</p>
+                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }}>5 mins</p>
                     </div>
-                    <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }} contentEditable="true" spellCheck="false">Client Executive</p>
-                    <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }} contentEditable="true" spellCheck="false">Great stuff everybody!</p>
+                    <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }}>Client Executive</p>
+                    <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }}>Great stuff everybody!</p>
                     <div style={{ display: "flex" }}>
                       <div style={{ display: "flex", alignItems: "center", paddingLeft: 20, marginTop: 30 }}>
                         <svg width="30" height="30" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -944,10 +944,10 @@ notifications" imageName="android-tablet-display-2" background="top" marginOffse
             <Holder shotWidth={1242} shotHeight={2208} themeColour={themeColour} lightMode={lightMode} appName={appName} deviceWidth={1242} tablet={true} displayText="Be part of the conversation" imageName="android-tablet-display-3" marginOffset={"auto"}>
               <Navbar title="Updates from the Team" themeColour={themeColour} lightMode={lightMode} style='fullback' compact={true} />
               <Body compact={true} noPadding={true}>
-                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "20px 40px 0 40px" }} contentEditable="true" spellCheck="false">Congratulations to each and every one of you on a fantastic quarter. I am immensely proud to lead such a talented and dedicated team.</p>
-                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "40px 40px 40px 40px" }} contentEditable="true" spellCheck="false">Here's to our continued success!</p>
+                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "20px 40px 0 40px" }}>Congratulations to each and every one of you on a fantastic quarter. I am immensely proud to lead such a talented and dedicated team.</p>
+                <p style={{ color: "#666", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, padding: "40px 40px 40px 40px" }}>Here's to our continued success!</p>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 30, backgroundColor: "#fff", padding: "40px", borderTop: "1px solid #D9D9D9", borderBottom: "1px solid #D9D9D9" }}>
-                  <div>
+                  <div style={{ width: "280px" }}>
                     <svg width="58" height="58" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: "1rem" }}>
                       <path fillRule="evenodd" clipRule="evenodd" d="M16.9466 8.60017C19.4906 7.54379 22.2182 7 24.9729 7C27.7276 7 30.4552 7.54379 32.9993 8.60017C35.5434 9.65656 37.8539 11.2048 39.7984 13.156L39.8092 13.1669L40 13.3603L40.1908 13.167L40.2017 13.156C42.1462 11.2048 44.4567 9.65656 47.0008 8.60017C49.5448 7.54379 52.2724 7 55.0271 7C57.7818 7 60.5094 7.54379 63.0535 8.60017C65.5967 9.6562 67.9065 11.2037 69.8505 13.154C78.1736 21.4793 78.3586 35.2446 68.4964 45.2917L68.4751 45.3133L42.3125 71.4759C41.6992 72.0892 40.8674 72.4338 40 72.4338C39.1327 72.4338 38.3009 72.0892 37.6876 71.4759L11.5036 45.2918C1.6413 35.2447 1.82647 21.4793 10.1495 13.154C12.0936 11.2037 14.4034 9.6562 16.9466 8.60017Z" fill="#D22B35" />
                     </svg>
@@ -964,11 +964,11 @@ notifications" imageName="android-tablet-display-2" background="top" marginOffse
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
                   <div>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
-                      <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }} contentEditable="true" spellCheck="false">Joseph Smith</p>
-                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }} contentEditable="true" spellCheck="false">5 mins</p>
+                      <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }}>Joseph Smith</p>
+                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }}>5 mins</p>
                     </div>
-                    <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }} contentEditable="true" spellCheck="false">Client Executive</p>
-                    <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }} contentEditable="true" spellCheck="false">Great stuff everybody!</p>
+                    <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }}>Client Executive</p>
+                    <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }}>Great stuff everybody!</p>
                     <div style={{ display: "flex" }}>
                       <div style={{ display: "flex", alignItems: "center", paddingLeft: 20, marginTop: 30 }}>
                         <svg width="30" height="30" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">

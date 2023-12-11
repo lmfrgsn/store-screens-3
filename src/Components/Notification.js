@@ -14,10 +14,10 @@ export default function Notification({ text, timestamp, unread, icon, image, emo
                     {image ? <img src={image} style={{ width: 80, height: 80, borderRadius: 60, marginRight: 20 }} /> : ''}
                 </div>
                 <div>
-                    <p style={{ fontSize: 36, fontWeight: 500, color: "#343D4C", marginTop: 0 }} contentEditable="true" spellCheck="false">{quotes ? '"' : ''}{text}{emoji ? <img src={emojiSrc} style={{ width: 35, height: 35 }} /> : ''}{quotes ? '"' : ''}</p>
+                    <p style={{ fontSize: 36, fontWeight: 500, color: "#343D4C", marginTop: 0 }}>{quotes ? '"' : ''}{text}{emoji ? <img src={emojiSrc} style={{ width: 35, height: 35 }} /> : ''}{quotes ? '"' : ''}</p>
                     <div style={{ display: "flex", alignItems: "center", marginBottom: 12 }}>
                         <img src={icon} width="28" height="28" style={{ marginRight: 8 }} />
-                        <p style={{ fontSize: 28, fontWeight: 500, opacity: "0.7", margin: 0, color: "#6D7C99", flexGrow: 1 }} contentEditable="true" spellCheck="false">{timestamp}</p>
+                        <p style={{ fontSize: 28, fontWeight: 500, opacity: "0.7", margin: 0, color: "#6D7C99", flexGrow: 1 }}>{timestamp}</p>
                     </div>
                 </div>
             </div>
