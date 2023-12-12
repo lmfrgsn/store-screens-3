@@ -2,7 +2,7 @@ export default function TwoColList({ date, tablet, gradients, showIcons, display
     return (
         <>
             {/* 2 Column List */}
-            <div className="tile-image" style={{ position: 'relative' }}>
+            <div className="tile-image" style={{ position: 'relative', marginBottom: tablet ? "2rem" : "0" }}>
                 <img src={image ? image : 'plus.png'} style={{ width: "100%", objectFit: "cover", borderRadius: "16px", height: tablet ? "36rem" : "24rem" }} alt="" />
                 <div style={{ position: "absolute", bottom: "2rem", left: "2rem", right: "2rem", zIndex: 20 }}>
                     <p style={{ fontSize: "40px", margin: 0, zIndex: 20 }}>{title}</p>

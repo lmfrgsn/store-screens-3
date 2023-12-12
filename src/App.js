@@ -531,7 +531,7 @@ notifications" imageName="iphone-5-5-display-2" background="top" marginOffset={"
                 <Notification text='Great feedback from ACME Corp!' timestamp="1 hour" unread={true} icon="bell.svg" quotes />
                 {/* <Notification text={`Leave feedback on the new ${appName} app!`} timestamp="1 day" unread={true} icon="like-active.svg"/> */}
                 <Notification text='Kate McGowan liked your comment: "Nice work!"' timestamp="4 hours" unread={true} icon="like-active.svg" image="person-3.png" />
-                <Notification text='Some exciting news! ' timestamp="1 day" unread={false} icon="bell.svg" emoji={true} quotes />
+                <Notification text='Some exciting news! ' timestamp="1 day" unread={false} icon="bell.svg" emoji={true} />
                 <Notification text='Ava Davis mentioned you in a comment: "Great to meet some new team members!"' timestamp="2 days" unread={false} icon="mentions.svg" image="person-4.png" />
               </Body>
             </Holder>
@@ -669,7 +669,7 @@ notifications" imageName="ipad-12-9-display-2" background="top" marginOffset={"1
                 </div>
                 <Notification text='Great feedback from ACME Corp!' timestamp="1 hour" unread={true} icon="bell.svg" quotes />
                 <Notification text='Kate McGowan liked your comment: "Nice work!"' timestamp="4 hours" unread={true} icon="like-active.svg" image="person-3.png" />
-                <Notification text='Some exciting news! ' timestamp="1 day" unread={false} icon="bell.svg" emoji={true} quotes />
+                <Notification text='Some exciting news! ' timestamp="1 day" unread={false} icon="bell.svg" emoji={true} />
                 <Notification text='Ava Davis mentioned you in a comment: "Great to meet some new team members!"' timestamp="2 days" unread={false} icon="mentions.svg" image="person-4.png" />
               </Body>
             </Holder>
@@ -809,7 +809,7 @@ notifications" imageName="android-phone-display-2" background="top" marginOffset
                 </div>
                 <Notification text='Great feedback from ACME Corp!' timestamp="1 hour" unread={true} icon="bell.svg" quotes />
                 <Notification text='Kate McGowan liked your comment: "Nice work!"' timestamp="4 hours" unread={true} icon="like-active.svg" image="person-3.png" />
-                <Notification text='Some exciting news! ' timestamp="1 day" unread={false} icon="bell.svg" emoji={true} quotes android />
+                <Notification text='Some exciting news! ' timestamp="1 day" unread={false} icon="bell.svg" emoji={true} android />
                 <Notification text='Ava Davis mentioned you in a comment: "Great to meet some new team members!"' timestamp="2 days" unread={false} icon="mentions.svg" image="person-4.png" />
               </Body>
             </Holder>
@@ -936,7 +936,7 @@ notifications" imageName="android-tablet-display-2" background="top" marginOffse
                 </div>
                 <Notification text='Great feedback from ACME Corp!' timestamp="1 hour" unread={true} icon="bell.svg" quotes />
                 <Notification text='Kate McGowan liked your comment: "Nice work!"' timestamp="4 hours" unread={true} icon="like-active.svg" image="person-3.png" />
-                <Notification text='Some exciting news! ' timestamp="1 day" unread={false} icon="bell.svg" emoji={true} quotes android />
+                <Notification text='Some exciting news! ' timestamp="1 day" unread={false} icon="bell.svg" emoji={true} android />
                 <Notification text='Ava Davis mentioned you in a comment: "Great to meet some new team members!"' timestamp="2 days" unread={false} icon="mentions.svg" image="person-4.png" />
               </Body>
             </Holder>
