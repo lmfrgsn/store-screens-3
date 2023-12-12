@@ -391,7 +391,7 @@ notifications" imageName="iphone-6-7-display-2" background="top" marginOffset={"
                 <Notification text='Great feedback from ACME Corp!' timestamp="1 hour" unread={true} icon="bell.svg" quotes />
                 {/* <Notification text={`Leave feedback on the new ${appName} app!`} timestamp="1 day" unread={true} icon="like-active.svg"/> */}
                 <Notification text='Kate McGowan liked your comment: "Nice work!"' timestamp="4 hours" unread={true} icon="like-active.svg" image="person-3.png" />
-                <Notification text='Some exciting news! ' timestamp="1 day" unread={false} icon="bell.svg" emoji={true} quotes />
+                <Notification text='Some exciting news! ' timestamp="1 day" unread={false} icon="bell.svg" emoji={true} />
                 <Notification text='Ava Davis mentioned you in a comment: "Great to meet some new team members!"' timestamp="2 days" unread={false} icon="mentions.svg" image="person-4.png" />
                 {/* <Notification text="Quick company announcement video!" timestamp="1 day" unread={false} icon="user-plus.svg"/>
                 <Notification text="Quick company announcement video!" timestamp="1 day" unread={false} icon="ribbon.svg"/>
@@ -420,10 +420,10 @@ notifications" imageName="iphone-6-7-display-2" background="top" marginOffset={"
                 </div>
                 <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderBottom: "1px solid #D9D9D9" }}>
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
-                  <div>
+                  <div style={{ flexGrow: 1 }}>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
                       <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }}>Joseph Smith</p>
-                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }}>5 mins</p>
+                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0, flexGrow: 1 }}>5 mins</p>
                     </div>
                     <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }}>Client Executive</p>
                     <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }}>Great stuff everybody!</p>
@@ -558,10 +558,10 @@ notifications" imageName="iphone-5-5-display-2" background="top" marginOffset={"
                 </div>
                 <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderBottom: "1px solid #D9D9D9" }}>
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
-                  <div>
+                  <div style={{ flexGrow: 1 }}>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
                       <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0, display: "block" }}>Joseph Smith</p>
-                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }}>5 mins</p>
+                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0, flexGrow: 1 }}>5 mins</p>
                     </div>
                     <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }}>Client Executive</p>
                     <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }}>Great stuff everybody!</p>
@@ -696,10 +696,10 @@ notifications" imageName="ipad-12-9-display-2" background="top" marginOffset={"1
                 </div>
                 <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderBottom: "1px solid #D9D9D9" }}>
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
-                  <div>
+                  <div style={{ flexGrow: 1 }}>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
                       <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }}>Joseph Smith</p>
-                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }}>5 mins</p>
+                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0, flexGrow: 1 }}>5 mins</p>
                     </div>
                     <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }}>Client Executive</p>
                     <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }}>Great stuff everybody!</p>
@@ -836,10 +836,10 @@ notifications" imageName="android-phone-display-2" background="top" marginOffset
                 </div>
                 <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderBottom: "1px solid #D9D9D9" }}>
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
-                  <div>
+                  <div style={{ flexGrow: 1 }}>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
                       <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }}>Joseph Smith</p>
-                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }}>5 mins</p>
+                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0, flexGrow: 1 }}>5 mins</p>
                     </div>
                     <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }}>Client Executive</p>
                     <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }}>Great stuff everybody!</p>
@@ -962,10 +962,10 @@ notifications" imageName="android-tablet-display-2" background="top" marginOffse
                 </div>
                 <div style={{ display: "flex", backgroundColor: "#F6F6F6", padding: "40px", borderBottom: "1px solid #D9D9D9" }}>
                   <img src="person-1.png" style={{ width: 100, height: 100, borderRadius: 60 }} />
-                  <div>
+                  <div style={{ flexGrow: 1 }}>
                     <div style={{ display: "flex", alignItems: "center", marginTop: 20 }}>
                       <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 600, paddingLeft: 20, margin: 0 }}>Joseph Smith</p>
-                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0 }}>5 mins</p>
+                      <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 10, margin: 0, flexGrow: 1 }}>5 mins</p>
                     </div>
                     <p style={{ color: "#6D7C99", fontSize: 26, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 6 }}>Client Executive</p>
                     <p style={{ color: "#343D4C", fontSize: 36, fontWeight: 500, paddingLeft: 20, margin: 0, marginTop: 16 }}>Great stuff everybody!</p>
